@@ -1,0 +1,31 @@
+start = int(input("Enter the start of range : "))
+end = int(input("Enter the end of range : "))
+Enter the start of range : -12
+Enter the end of range : 20
+for num in range(start, end + 1):
+    if num>=0:
+        print(num, end = " ")
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+for i in range(-12, 20):
+    if i>=0:
+        print(i)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
